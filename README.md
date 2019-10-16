@@ -1,8 +1,12 @@
 # BreakingBall
 Game for the discipline of Laboratory of Programming of the course of Computation of the IFCE
 
-To run the game with GCC - from mingw:
-	- gcc game.c -o run
+## To run the game 
+	You will need to have installed the MinGW GCC command.
+	
+	Once you have GCC installed, run the following command at the root of the application:
+		`gcc game.c -o run`
+	After that, run the file named "run".
 
 ## Running
 
