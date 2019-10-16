@@ -7,7 +7,7 @@ You will need to have installed the MinGW GCC command.
 Once you have GCC installed, run the following command at the root of the application:
 `gcc game.c -o run`
 
-After that, run the file named "run".
+After that, run the file named `run`.
 
 ## Running
 
