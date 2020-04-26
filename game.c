@@ -118,9 +118,9 @@ void modify_array(char board[ROW][COLUMN], int position_ball[2], int position_pa
 
 int choose_level(int default_scores[1], double velocity[1]){
   system("@cls||clear");
-  printf("1 - Type for easy ~ 10 required points\n");
-  printf("2 - Type for easy ~ 15 required points\n");
-  printf("3 - Type for easy ~ 21 required points\n");
+  printf("1 - Type for hard ~ 10 required points\n");
+  printf("2 - Type for normal ~ 15 required points\n");
+  printf("3 - Type for default ~ 21 required points\n");
   printf("Any other key for default game ~ 21 required points\n");
   printf("Choose your level: ");
   while(1){
