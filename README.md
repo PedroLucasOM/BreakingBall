@@ -45,16 +45,16 @@ run.exe
 
 #### Palette Functionality
 
-###### The central part of the palette will always throw the ball vertically.
-###### The neighboring parts of the central part will deflect the ball vertically or diagonally depending on whether the column where the ball is located is odd or even.
-###### The tips of the palette will always deflect the ball to their respective diagonals.
+The central part of the palette will always throw the ball vertically.
+The neighboring parts of the central part will deflect the ball vertically or diagonally depending on whether the column where the ball is located is odd or even.
+The tips of the palette will always deflect the ball to their respective diagonals.
 
 <img align="center" src="https://github.com/PedroLucasOM/BreakingBall/blob/master/images/3.png" />
 <br />
 
 #### Game Completion
 
-###### The game will end when it reaches the required required score or when the ball goes beyond the lower limit of the palette, respectively win or loss.
+The game will end when it reaches the required required score or when the ball goes beyond the lower limit of the palette, respectively win or loss.
 
 <img align="center" src="https://github.com/PedroLucasOM/BreakingBall/blob/master/images/4.png" />
 <br />
