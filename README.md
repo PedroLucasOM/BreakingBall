@@ -1,13 +1,12 @@
 <h1 align="center">Welcome to BreakingBall 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
-  <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
+  <img src="https://img.shields.io/badge/mingw-0.6.3-blue.svg" />
   <a href="https://github.com/PedroLucasOM/BreakingBall#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-green.svg" />
   </a>
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+    <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
   </a>
   <a href="https://twitter.com/PedroLucasOM" target="_blank">
     <img alt="Twitter: PedroLucasOM" src="https://img.shields.io/twitter/follow/PedroLucasOM.svg?style=social" />
@@ -20,26 +19,43 @@
 
 ## Prerequisites
 
-- npm >=5.5.0
-- node >=9.3.0
+- mingw = 0.6.3
 
 ## Install
 
 ```sh
-npm install
+gcc game.c -o run
 ```
 
 ## Usage
 
 ```sh
-npm run start
+run.exe
 ```
 
-## Run tests
+#### Home Screen
 
-```sh
-npm run test
-```
+![Home Screen](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/1.png)
+
+#### Game Level Selection
+
+![Game level selection between required potency of 10, 15 and 21 points](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/2.png)
+
+#### Palette Functionality
+
+###### The central part of the palette will always throw the ball vertically.
+###### The neighboring parts of the central part will deflect the ball vertically or diagonally depending on whether the column where the ball is located is odd or even.
+###### The tips of the palette will always deflect the ball to their respective diagonals.
+
+![Palette Functionality](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/3.png)
+
+#### Game Completion
+
+###### The game will end when it reaches the required required score or when the ball goes beyond the lower limit of the palette, respectively win or loss.
+
+![Game Completion](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/4.png)
+
+![Game Completion](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/5.png)
 
 ## Author
 
@@ -56,6 +72,3 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
