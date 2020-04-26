@@ -36,10 +36,12 @@ run.exe
 #### Home Screen
 
 ![Home Screen](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/1.png)
+<br />
 
 #### Game Level Selection
 
 ![Game level selection between required potency of 10, 15 and 21 points](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/2.png)
+<br />
 
 #### Palette Functionality
 
@@ -48,14 +50,17 @@ run.exe
 ###### The tips of the palette will always deflect the ball to their respective diagonals.
 
 ![Palette Functionality](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/3.png)
+<br />
 
 #### Game Completion
 
 ###### The game will end when it reaches the required required score or when the ball goes beyond the lower limit of the palette, respectively win or loss.
 
 ![Game Completion](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/4.png)
+<br />
 
 ![Game Completion](https://github.com/PedroLucasOM/BreakingBall/blob/master/images/5.png)
+<br />
 
 ## Author
 
